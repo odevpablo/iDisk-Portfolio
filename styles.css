@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&family=Playfair+Display:ital@1&display=swap');
+
+
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(210, 205, 239);
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(210, 205, 239);
+}
+
+.astronauta {
+    display: flex;
+    align-items: right;
+    float: right;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+
+}
+
+.cadastro {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.cadastro a {
+    text-decoration: none;
+    color: rgb(240, 217, 240);
+    padding: 1rem 4rem;
+    border: 1px solid #6362623b;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+a:hover {
+    background-color: rgba(173, 176, 255, 0.958);
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/iDisk.png);
+
+}
+
+.descricao {
+    text-decoration: none;
+    color: rgb(252, 252, 255);
+    display: flex;
+    top: 80%;
+    left: 4%;
+    border-radius: 0%;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.github-container {
+    display: flex;
+    align-items: right;
+    position: absolute;
+    top: 190%;
+    left: 90%;
+}
+
+.titulo {
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.about {
+    color: white;
+    background-color: #060611;
+    border-radius: 5%;
+    padding: 4%;
+    position: absolute;
+    display: none;
+    top: 110%;
+    left: 80%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.elementos-skills {
+    display: flex;
+    justify-content: space-around;
+    top: 50%;
+    align-items: tace;
+}
+
+.elementos-skills a {
+    width: 200px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgc(210, 205, 239);
+
+}
+
+
+
+.titulo {
+    padding: 200px;
+}
+
+.titulo p {
+    align-items: center;
+    color: #f6f6fb;
+    font-size: 35px;
+}
+
+.skillhtml {
+    display: none;
+    position: absolute;
+    top: 150%;
+    left: 31%;
+}
+
+.skillcss {
+    display: none;
+    position: absolute;
+    top: 95%;
+    left: 47%;
+}
+
+.skilljs {
+    display: none;
+    top: 152%;
+    left: 62%;
+    position: absolute;
+}
+
+
+
+.balaohtml {
+    background-color: #ff4c1e;
+    padding: 50%;
+    border-radius: 3.6%;
+    box-shadow: 3px 3px 3px 2px #0b0b2d59;
+    width: 98%;
+    display: none;
+    left: 23%;
+    right: 23%;
+
+}
+
+.balaohtml a {
+    font-size: 24px;
+
+}
+
+.balaocss {
+    align-items: flex-start;
+    display: none;
+    background-color: #0065f4;
+    padding: 60%;
+    border-radius: 3.6%;
+    box-shadow: 3px 3px 3px 2px #0b0b2d59;
+    width: 98%;
+    left: 23%;
+    right: 23%;
+}
+
+.balaocss a {
+    color: #fafafa;
+    text-decoration: solid;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.balaojs {
+    display: none;
+    background-color: #ffdf00;
+    padding: 60%;
+    border-radius: 3.6%;
+    box-shadow: 3px 3px 3px 2px #0b0b2d59;
+    width: 98%;
+    left: 23%;
+    right: 23%;
+}
+
+footer .box:nth-child(4) {
+    width: 400px;
+}
+
+

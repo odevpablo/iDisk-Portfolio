@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&family=Playfair+Display:ital@1&display=swap');
+
+
+#person{
+    left: 40%;
+    top: 0;
+    position: absolute;
+}
+.container {
+    width: 400px;
+    height: 350px;
+    background-color: #384046b3;
+    border: 1px #4c9d86;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+.container-logar{
+    margin-top: 15px;
+}
+.container-logar p {
+    font-size: 15px;
+    color: rgba(204, 193, 225, 0.577);
+}
+ #usuario::placeholder{
+    background-color:rgba(204, 193, 225, 0.577) ;
+    border-radius: 0%   ;
+}
+#senha::placeholder{
+    background-color:rgba(204, 193, 225, 0.577) ;
+    border-radius: 0%   ;
+}
+#email::placeholder{
+    background-color:rgba(204, 193, 225, 0.577) ;
+    border-radius: 0%   ;
+}
+.cadastro label {
+    color: rgba(15, 13, 19, 0.577);
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+input{
+    align-items: center;
+    background-color: rgb(208, 223, 229);       
+    text-align: center;
+    border-radius: 3em 3em;
+}
+.cadastro h1 {
+    padding: 10% 4%;
+    display: flex;
+    float: inline-start;
+    color: rgba(13, 11, 17, 0.577);
+}
+
+#cadastrar{
+    background-color: rgba(151, 151, 221, 0.749);
+    border-radius: 5px;
+    color: #384046b3;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 12%;
+    margin-left: 25%;
+    position: center;
+}
+
+#arrow{
+    padding: 5px;
+    margin-top: 10%;
+}

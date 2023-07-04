@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@900&family=Playfair+Display:ital@1&display=swap');
+
+
+.fundo {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.home {
+    position: fixed;
+    display: flex;
+    right: 0;
+    top: 7%;
+    float: right;
+
+}
+
+
+
+.home h1 {
+    right: 45%;
+    position: fixed;
+    top: 50%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #a1d7e9;
+}
+
+.home a {
+    right: 45%;
+    top: 43%;
+    position: fixed;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.redes-sociais {
+    right: 71%;
+    top: 94%;
+    position: fixed;
+}
+
+.logo {
+    position: fixed;
+    display: flex;
+    right: 66%;
+    top: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: #01243e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-screen {
+    text-align: center;
+}
+
+.login-screen h2 {
+    margin-bottom: 20px;
+}
+
+.login-screen form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-screen label {
+    margin-bottom: 10px;
+
+}
+
+.login-screen input[type="text"],
+.login-screen input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.login-screen input[type="submit"] {
+    padding: 10px;
+    background-color: #042166bc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.separator {
+    width: 2px;
+    background-color: #efeded;
+}
+
+.login-screen {
+    flex: 1;
+    padding: 20px;
+}
+
+.container {
+    position: right;
+
+}

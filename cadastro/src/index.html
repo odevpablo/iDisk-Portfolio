@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cadastro.css">
+    <script defer src="script.js"></script>
+    <title>TELA DE CADASTRO </title>
+</head>
+
+<body class="gradient">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+
+        .gradient {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(45deg, #e8be24, #bc16a3a0, #3462c0, #5155c3);
+            background-size: 400% 400%;
+            animation: colors 15s ease infinite;
+        }
+
+
+        @keyframes colors {
+
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+    </div>
+    <div class="person">
+        <img src="imgs/astronaut-helmet-animate.svg" width="300" id="person">
+    </div>
+    <div class="container">
+        <div class="cadastro">
+            <form action="index.php" method="POST">
+                <label for="usuario"><b>Usuario</b></label>
+                <input type="text" placeholder="Usuario" name="usuario" id="usuario" required>
+                <br>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Email" name="email" id="email" required>
+                <br>
+                <label for="senha"><b>Senha</b></label>
+                <input type="text" placeholder="Senha" name="senha" id="senha" required>
+                <br>
+                <label for="re-senha"><b>Confirmação</b></label>
+                <input type="text" placeholder="Senha" name="senha" id="senha" required>
+                <div class="container-logar">
+                    <p> já tem uma conta? <a href="#">Entrar</a>.</p>
+                </div>
+                <input type="submit" value="cadastrar" id="cadastrar">
+            </form>
+            <div class="back">
+                <a class href="" target="_black/">
+                <img src="imgs/down-right-arrow.png" width="32" id="arrow">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

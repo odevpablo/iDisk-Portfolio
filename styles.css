@@ -184,8 +184,13 @@ a:hover {
 }
 
 .balaohtml a {
-    font-size: 24px;
-
+    text-decoration: solid;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .balaocss {
@@ -220,6 +225,15 @@ a:hover {
     width: 98%;
     left: 23%;
     right: 23%;
+}
+.balaojs a {
+    text-decoration: solid;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer .box:nth-child(4) {

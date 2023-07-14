@@ -112,6 +112,8 @@
 }
 
 .container {
+    color: #a1d7e9;
     position: right;
-
+    border-color: #01243e;
+    font-family: 'Orbitron', sans-serif;
 }

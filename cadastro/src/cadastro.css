@@ -55,6 +55,9 @@ input{
     text-align: center;
     border-radius: 3em 3em;
 }
+.cadastro{
+    margin-top: 40px;
+}
 .cadastro h1 {
     padding: 10% 4%;
     display: flex;

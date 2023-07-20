@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 69px;
+  height: 100%;
   background-color: #021946;
 }
 #logout{
@@ -40,6 +40,7 @@
   top: 10px;
   padding-left: 1px;
   text-align: center;
+  text-decoration: solid;
 }
 
 .conf {
@@ -62,6 +63,14 @@
   color:  #c5c5ff;
   font-family: 'Orbitron', sans-serif;
   font-size: 18px;
+  padding: 0%;
+}
+ 
+.home ul li{
+  left: 0px;
+  padding: 20px;
+  text-decoration: none;
+  color: aliceblue;
 
 }
 

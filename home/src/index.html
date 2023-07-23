@@ -10,30 +10,38 @@
 <body>
   <header>
     <style>
+      *::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      *::-webkit-scrollbar-track {
+
+        background-color: #5d6089;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+      }
+
       body {
-        background-color: #021946;
+        background-color: #5d6089;
+        background-size: 400% 400%;
         width: 100vw;
         height: 100vh;
       }
     </style>
   </header>
-  <header class="header-container">
-    <div class="menu">
-      <img src="imgs/astronaut.png" width="50" id="astro">
-      <div class="conf">
-        <span class="buttonconf" id="btconf">
-          <div class="container">
-            <ul>
-              <li>Status</li>
-            </ul>
-          </div>
-        </span>
-        
+  <header class="header">
+    <header class="header-container">
+      <div class="menu">
+        <img src="imgs/astronaut.png" width="50" id="astro">
       </div>
       <div class="logout">
         <img src="imgs/logout.png" width="32" id="logout">
-
-      </div>
+    </header>
+    </div>
     </div>
   </header>
   <div class="home">
@@ -46,21 +54,6 @@
   </div>
   <div class="suporte">
     <img src="imgs/suport.png" width="50" id="suporte">
-  </div>
-  <div class="page">
-
-  </div>
-
-  <div class="status">
-  </div>
-  <div class="configuracoes">
-
-  </div>
-  <div class="downloads">
-
-  </div>
-  <div class="market">
-
   </div>
 </body>
 

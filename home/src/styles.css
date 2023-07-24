@@ -24,6 +24,7 @@
    
 }
 .home{
+  
   background-color: #021946;
   top: 0;
   left: 0;
@@ -32,16 +33,27 @@
   position: absolute;
 }
 .home ul{
-  margin-top: 100%;
+  margin-top: 60%;
   list-style-type: none;
   color:  #c5c5ff;
   font-family: 'Orbitron', sans-serif;
   font-size: 18px;
   padding: 10%;
+  
+}
+.home li{
+  padding-bottom: 10px;
+  margin-top: 40px;
 }
 .suporte{
   top: 90%;
   position: absolute;
 
 }
+.suporte a{
 
+  background-color: #c5c5ff;
+  border-radius: 3px;
+  padding: 15px;
+  
+}

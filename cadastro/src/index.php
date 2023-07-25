@@ -1,7 +1,8 @@
 <?php
-   
-   
-   include("conexao.php");
+    include("controller.php");
+
+    $controller = new Controller();
+    $controller-> index();
 
     $nome=$_POST['email'];
     $usuario=$_POST['usuario'];
